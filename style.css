@@ -1,0 +1,200 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    font-family: Arial, sans-serif;
+    font-size: .8rem;
+    
+}
+
+#navbar {
+     display: flex;
+     justify-content: space-between;
+     
+}
+.nav1 ul, .nav2 ul {
+    display: flex;
+    list-style-type: none;
+}
+
+.nav1 ul li {
+    margin: 20px 10px 0 20px;
+    
+}
+
+.nav2 ul li {
+    margin: 25px 10px 0 0px;
+}
+
+#navbar ul li {
+    opacity: .8;
+}
+
+#navbar a {
+    text-decoration: none;
+    color: #000
+}
+
+#navbar a:hover {
+    text-decoration: underline;
+}
+
+
+.appicon {
+    margin: 15px 10px 0 10px;
+    opacity: .6;
+}
+
+.appicon:hover {
+    opacity: 1;
+}
+
+#navbar button {
+    color: white;
+    background-color: #1a73e8;
+    border-radius: 3px;
+    margin: 15px 20px 0 10px;
+    padding: 8px;
+    width: 70px;
+    height: 30px;
+    border: none;
+    cursor: pointer;
+    font-weight: 600;
+    opacity: .9;
+}
+
+.section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 200px 0 100px 0;
+}
+
+.google-logo {
+    margin-bottom: 20px;
+}
+
+.search {
+    width: 500px;
+    height: 45px;
+    border: 1px solid lightgray;
+    border-radius: 25px;
+    padding: 20px;
+    margin: 0 10px 30px 0;
+    position: relative;
+  }
+
+.search:hover {
+    box-shadow: 0 0 10px lightgray;
+}
+.search input {
+    height: 35px;
+    width: 350px;
+    position: absolute;
+    margin: -15px 35px;
+    border: none;
+    outline: none;
+    font-size: 1rem;  
+}
+.search-icon {
+    position: absolute;
+    margin: -13px 1px;
+    height: 30px;
+}
+
+.microphone {
+    position: absolute;
+    right: 20px;
+    margin-top: -10px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.section button {
+    margin: 5px;
+    height: 35px;
+    width: 135px;
+    border: none;
+    color: #5f6368;
+    border-radius: 4px;
+    margin-bottom: 35px;
+}
+
+.section button:first-child {
+    width: 120px;
+}
+
+.section button:hover {
+    cursor: pointer;
+    color: #000;
+    border: 1px solid lightgray;
+    box-shadow: .7px .7px .7px lightgray;
+}
+
+.section p a {
+    color: #000080;
+}
+
+.section p a:active {
+    color: #000080;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    margin-top: 105px;
+    background-color: #f2f2f2;
+    font-size: .8rem;
+    color: #5f6368;    
+}
+
+.country {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    height: 40px;
+    border-bottom: 1px solid #e4e4e4;
+    font-size: .9rem;
+   
+}
+
+.alt {
+    display: flex;
+    align-items: center;
+    position: relative;
+    height: 50px;
+    font-size: .85rem;
+}
+
+.alt ul li {
+    list-style-type: none;
+    display: inline;
+    
+}
+
+.alt ul li a {
+    text-decoration: none;
+    margin: 20px;
+    color: #5f6368;
+}
+
+.right {
+    position: absolute;
+    right: 10px;
+}
+
+.alt ul li a:active {
+    color: #5f6368;
+}
+
+.alt ul li a:hover {
+    text-decoration: underline;
+}
+
+
+
